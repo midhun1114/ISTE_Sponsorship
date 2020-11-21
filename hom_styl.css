@@ -1,0 +1,219 @@
+
+html { overflow-x: hidden; }
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    overflow-x: hidden;
+  }
+  .navbar{
+    
+    background-color: #1d1e22
+
+  }
+
+  .navbar-brand
+  {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+    
+ 
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: white;
+  }
+  
+  #title {
+   
+   
+    text-align: left;
+  }
+
+.container-fluid {
+    padding: 3% 5%;
+  }
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 4.5rem;
+    line-height: 1.5;
+    padding :100px 10px 10px 10px;
+    color: white;
+    
+  }
+  .logo {
+    width: 90px;
+    padding-left:0px; 
+  }
+
+ 
+  #title
+  {
+    background-image: url("images/planets-blue-falling-stars-minimal-4k.jpg");
+    background-size: cover;
+    
+
+  }
+ 
+ 
+ .line-heading{
+  border-bottom:10px solid #a0a9da;
+}
+.dot{
+  color:white;
+}
+  .title-image {
+   
+    width: 60%;
+    position: absolute;
+    right: 30%;
+    padding : 40px 10px 10px 10px;
+  }
+  .download-button {
+    margin: 2% 2% 2% 2%;
+  }
+  
+  .title-description{
+   
+    font-family: "Montserrat-Black";
+    font-size: 1.5rem;
+    color: white;
+
+  }
+
+  .coloured-section {
+
+  
+    padding: 14% 2% ;
+    background-color: #1d1e22;   
+  }
+
+  .about{
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+  }
+
+  
+  .abt-pic {
+    float: left;
+    
+    
+  }
+  .i
+  {
+    width: 150px;
+    padding-top: 90px;
+    
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .small-heading
+  {
+    f
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding :30px 10px 10px 10px;
+    font-weight: bolder;
+    color:white;
+  }
+  .line-heading2{
+    border-bottom:3px solid rgba(5,11,109,1);
+  }
+  .abt-image
+  {
+    width: 50%;
+    padding :90px 10px 10px 10px;
+  }
+
+ 
+.foot{
+  background: rgb(48,57,140);
+  background: linear-gradient(90deg, rgba(48,57,140,1) 7%, rgba(0,1,1,1) 100%);
+}
+
+.footer-desc
+{
+  
+    padding: 1% 10% 1% 10%;
+
+  text-align: center;
+  color: white;
+}
+.social-icon {
+  margin: 0px 10px 20px 10px;
+  color: white;
+}
+.list-unstyled a
+{
+  color: white;
+  text-decoration: none;
+}
+.foot-head{
+  color:white;
+}
+ 
+
+
+  @media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+    .abt-txt
+  {
+    text-align: center;
+    padding: 10px 5px;
+  }
+
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 2.7rem;
+    color: white;
+    
+  }
+  .title-description{
+   
+    font-family: "Montserrat-Black";
+    font-size: 1.5rem;
+    color: white;
+
+  }
+  .i
+  {
+    width: 240px;
+    padding-left: 50px;
+  }
+  .abt-image
+  {
+    width: 50%;
+    padding :90px 10px 10px 10px;
+  }
+  }
+  
+
+
+
+
+
+
+
+
+
+  
+  
