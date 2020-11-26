@@ -7,7 +7,7 @@ body {
   }
   .navbar{
     
-    background-color: #1d1e22
+    background-color: black
 
   }
 
@@ -18,7 +18,6 @@ body {
     font-weight: bold;
   }
   
-    
  
   .navbar-light .navbar-nav .nav-link {
     color: white;
@@ -33,10 +32,12 @@ body {
     font-family: "Montserrat-Light";
     color: white;
   }
-  
+  .navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+    }
   #title {
-   
-   
+
+    
     text-align: left;
   }
 
@@ -57,9 +58,9 @@ body {
   }
 
  
-  #title
-  {
-    background-image: url("images/planets-blue-falling-stars-minimal-4k.jpg");
+  #title{
+  
+    background-image: url("images/title.jpg");
     background-size: cover;
     
 
@@ -67,7 +68,7 @@ body {
  
  
  .line-heading{
-  border-bottom:10px solid #a0a9da;
+  border-bottom:10px solid blue;
 }
 .dot{
   color:white;
@@ -94,8 +95,10 @@ body {
   .coloured-section {
 
   
-    padding: 14% 2% ;
-    background-color: #1d1e22;   
+    padding: 14% 10% 2% ;
+    
+    background-image: url("images/minimal-wallpaper-200814141616121.jpg");
+    background-size: cover;
   }
 
   .about{
@@ -120,7 +123,6 @@ body {
   }
   .small-heading
   {
-    f
     font-size: 2.5rem;
     line-height: 1.5;
     padding :30px 10px 10px 10px;
@@ -128,7 +130,10 @@ body {
     color:white;
   }
   .line-heading2{
-    border-bottom:3px solid rgba(5,11,109,1);
+    border-bottom:4px solid #1013c2;
+    padding:10px;
+
+  
   }
   .abt-image
   {
@@ -163,6 +168,169 @@ body {
   color:white;
 }
  
+
+
+
+/*--------------------------------------------------------------
+# Events
+--------------------------------------------------------------*/
+
+#events {
+  padding: 60px 0 30px 0;
+  background-image: url("images/minimal-wallpaper-20081414161612-scaled.jpg");
+  background-size: cover;
+}
+
+#events .event {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#events .event .details {
+  background: rgba(21, 31, 46, 0.76);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#events .event .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#events .event .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#events .event .details .social {
+  height: 30px;
+}
+
+#events .event .details a {
+  color: #fff;
+}
+
+#events .event .details a:hover {
+  color: #f82249;
+}
+
+#events .event:hover .details {
+  bottom: 0;
+}
+
+#events-details {
+  padding: 60px 0;
+}
+
+#events-details .details h2 {
+  color: #112363;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+
+#events-details .details p {
+  color: #112363;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #0e1b4d;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+
+
+/*--------------------------------------------------------------
+# Workshops
+--------------------------------------------------------------*/
+
+#works {
+  padding: 60px 0 300px 0;
+  
+  background-image: url("images/bottom.jpg");
+  background-size: cover;
+}
+
+#works .work {
+  border: 1px solid #091131;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+#works .work:hover .work-img img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#works .work-img {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#works .work-img img {
+  transition: 0.3s ease-in-out;
+}
+
+#works h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding: 0 20px;
+}
+
+#works a {
+  color: #152b79;
+}
+
+#works a:hover {
+  color: #f82249;
+}
+
+#works .stars {
+  padding: 0 20px;
+  margin-bottom: 5px;
+}
+
+#works .stars i {
+  color: #ffc31d;
+}
+
+#works p {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  color: #060c22;
+  font-style: italic;
+  font-size: 15px;
+}
+
+
+
 
 
   @media (max-width: 1028px) {
@@ -214,6 +382,31 @@ body {
 
 
 
-
+ 
+  #features {
+    position: relative;
+  }
   
+  .feature-title {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .feature-box {
+    padding: 4.5%;
+  }
+  
+  .icon {
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: blue;
+  }
+  .ft-desc
+  {
+    font-size: 1.1rem;
+    color: white;
+  }
   
